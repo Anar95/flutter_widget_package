@@ -41,16 +41,11 @@ class _VerticalCardPagerExampleState extends State<VerticalCardPagerExample> {
     ),
   ];
 
-
-
-
-
-
-  
-  final List<String> titles = ['','','','','','',''];
+  final List<String> titles = ['', '', '', '', '', '', ''];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 202, 223, 234),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(30),
